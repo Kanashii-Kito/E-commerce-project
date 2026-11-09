@@ -4,7 +4,7 @@ const shop_catlog = [
     name: "TIE/ln Space Superiority Starfighter",
     price: 60000,
     catagory: "Starfighter",
-    image: "",
+    image: "images/tiefighter.jpg",
   },
   {
     Manufacturer: "Sienar Fleet Systems",

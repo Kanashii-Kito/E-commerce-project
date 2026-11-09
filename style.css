@@ -49,6 +49,26 @@ body,
   font-weight: 400;
 }
 
+.boldfont5 {
+  font-weight: 500;
+}
+
+.boldfont6 {
+  font-weight: 600;
+}
+
+.boldfont7 {
+  font-weight: 700;
+}
+
+.boldfont8 {
+  font-weight: 800;
+}
+
+
+
+
+
 body {
   background-color: #1d232a;
   font-family: ui-sans-serif, system-ui, sans-serif;
@@ -124,7 +144,16 @@ body {
   font-weight: 400;
 }
 
+.ct {
+  
+}
 
+.centerimg {
+  display: flex;
+  padding: 0.2px;
+  margin: 2.3rem;
+  height:60vh;
+}
 
 
 .card-btn {
