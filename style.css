@@ -21,15 +21,15 @@ body,
   font-style: normal;
 }
 
-.fontread1 {
+.frt1 {
   font-family: "Protest Riot", Normal;
 }
 
-.fontread2 {
+.frt2 {
   font-family: "Meow Script", curisve;
 }
 
-.fontread3 {
+.frt3 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -119,8 +119,37 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container {
-  background-color: rgba(230, 222, 222, 0.933);
+  background-color: rgba(84, 80, 128, 0.933);
   color: #ffffff;
   height:90vh;
   margin: 2.5rem 3.5rem;
@@ -130,7 +159,7 @@ body {
 }
 
 .card {
-  background-color: rgba(97, 35, 35, 0.933);
+  background-color: rgba(78, 101, 122, 0.933);
   color: #ffffff;
   height:80vh;
   width: 55vh;
@@ -138,23 +167,23 @@ body {
   padding: 0.8795rem;
   border-radius: 0.5rem;
   gap: 1rem;
-
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .card-title {
   font-weight: 400;
 }
 
-.ct {
-  
-}
-
-.centerimg {
+.card-img{
   display: flex;
   align-items: center;
   justify-content: center;
-
-  height:60vh;
+  height: 60vh;
 }
+
 
 
 .card-btn {
@@ -174,3 +203,19 @@ body {
 .card-btn:hover {
   background-color: #7573ff;
 }
+
+
+
+
+/* .card {
+  background-color: blue;
+  width: 350px;
+  height: 450px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} */

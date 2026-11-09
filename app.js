@@ -158,30 +158,27 @@ function calculateTotal() {
   return shopping_cart.reduce((total, item) => total + item.price, 0);
 }
 
-function inject(item) {
+function inject(shop_catlog) {
   const container = document.querySelector(".container");
   container.insertAdjacentHTML(
     "beforeend",
     `<div class="card">
-      <h2 class="card-title">${item.name}</h2>
-        <h2 class="card-title2">${item.catagory}</h2>
+      <h2 class="card-title">${shop_catlog.name}</h2>
+        <h2 class="card-title2">${shop_catlog.catagory}</h2>
       <img 
-        src=${item.img}
+        class = "centering"
+        src=${shop_catlog.image}
         alt=""
       />
-      <p class="card-price">Request a Quote (Upwards of 200K Credits)</p>
+      <p class="card-price frt3">Request a Quote (Upwards of 200K Credits)</p>
       <button class="card-btn">View Variants</button>
     </div>`,
   );
 }
 
+inject();
+
 //make 1 html card, comment it out
 //select the container
 //forEach on items to inject to screen
 //select add cart buttons
-
-`<div class="card">
-        <h2 class="card-header">${item.name}</h2>
-        <img src="${item.img}" alt="" />
-        <p>filler filler filler</p>
-      </div> `;
