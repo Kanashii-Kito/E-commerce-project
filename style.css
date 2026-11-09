@@ -150,8 +150,9 @@ body {
 
 .centerimg {
   display: flex;
-  padding: 0.2px;
-  margin: 2.3rem;
+  align-items: center;
+  justify-content: center;
+
   height:60vh;
 }
 
