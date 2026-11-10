@@ -4,7 +4,7 @@ const shop_catlog = [
     name: "TIE/ln Space Superiority Starfighter",
     price: 60000,
     catagory: "Starfighter",
-    image: "images/tiefighter.jpg",
+    image: "images/tiefighter.png",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
@@ -166,7 +166,7 @@ function inject(shop_catlog) {
       <h2 class="card-title">${shop_catlog.name}</h2>
         <h2 class="card-title2">${shop_catlog.catagory}</h2>
       <img 
-        class = "centering"
+        class = "card-img centering"
         src=${shop_catlog.image}
         alt=""
       />
@@ -176,7 +176,11 @@ function inject(shop_catlog) {
   );
 }
 
-inject();
+console.log("js is running and has ran");
+
+shop_catlog.forEach((item) => {
+  inject(item);
+});
 
 //make 1 html card, comment it out
 //select the container
