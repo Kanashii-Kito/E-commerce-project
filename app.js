@@ -46,7 +46,7 @@ const shop_catlog = [
     name: "TIE Reaper",
     price: 110000,
     catagory: "Starfighter",
-    image: "imagesTIE_Reaper.webp",
+    image: "images/TIE_Reaper.webp",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
@@ -60,7 +60,7 @@ const shop_catlog = [
     name: "Sentinel-class Landing Craft",
     price: 260000,
     catagory: "Shuttle & Landing Craft",
-    image: "",
+    image: "images/ISC.jpeg",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
@@ -74,14 +74,14 @@ const shop_catlog = [
     name: "Mu-class Shuttle",
     price: 180000,
     catagory: "Shuttle & Landing Craft",
-    image: "",
+    image: "images/idk24.webp",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
     name: "Immobilizer 418 Interdictor-class Heavy Cruiser",
     price: 52000000,
     catagory: "Capital Ship",
-    image: "",
+    image: "images/im2.webp",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
@@ -95,7 +95,7 @@ const shop_catlog = [
     name: "Enforcer-class Light Cruiser",
     price: 23000000,
     catagory: "Capital Ship",
-    image: "",
+    image: "images/enforcer10.jpg",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
@@ -170,7 +170,7 @@ function inject(shop_catlog) {
         src=${shop_catlog.image}
         alt=""
       />
-      <p class="card-price frt3">Request a Quote (Upwards of 200K Credits)</p>
+      <p class="card-price frt3">Request a Quote (Upwards of ${shop_catlog.price} Credits)</p>
       <button class="card-btn">View Variants</button>
     </div>`,
   );
