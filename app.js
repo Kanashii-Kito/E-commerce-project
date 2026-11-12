@@ -46,14 +46,14 @@ const shop_catlog = [
     name: "TIE Reaper",
     price: 110000,
     catagory: "Starfighter",
-    image: "",
+    image: "imagesTIE_Reaper.webp",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
     name: "Lambda-class T-4a Shuttle",
     price: 240000,
     catagory: "Shuttle & Landing Craft",
-    image: "",
+    image: "images/LCS.webp",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
