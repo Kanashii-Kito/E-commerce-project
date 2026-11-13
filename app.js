@@ -1,21 +1,21 @@
 const shop_catlog = [
   {
     Manufacturer: "Sienar Fleet Systems",
-    name: "TIE/ln Space Superiority Starfighter",
+    name: "TIE Fighter",
     price: 60000,
     catagory: "Starfighter",
     image: "images/tiefighter.png",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
-    name: "TIE/sa Bomber",
+    name: "TIE Bomber",
     price: 75000,
     catagory: "Starfighter",
     image: "images/tiebomber.jpg",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
-    name: "TIE/in Interceptor",
+    name: "TIE Interceptor",
     price: 65000,
     catagory: "Starfighter",
     image: "images/tieinter.jpg",
@@ -29,14 +29,14 @@ const shop_catlog = [
   },
   {
     Manufacturer: "Sienar Fleet Systems",
-    name: "TIE/D Defender",
+    name: "TIE Defender",
     price: 300000,
     catagory: "Starfighter",
     image: "images/il_fullxfull.1199696595_c9xf.avif",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
-    name: "TIE/sk Striker",
+    name: "TIE Striker",
     price: 55000,
     catagory: "Starfighter",
     image: "images/TIE_striker_schematic.webp",
@@ -67,7 +67,7 @@ const shop_catlog = [
     name: "Delta-class T-3c Shuttle",
     price: 210000,
     catagory: "Shuttle & Landing Craft",
-    image: "",
+    image: "images/idk15.jpg",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
@@ -88,7 +88,7 @@ const shop_catlog = [
     name: "Vindicator-class Heavy Cruiser",
     price: 48000000,
     catagory: "Capital Ship",
-    image: "",
+    image: "images/vin1.webp",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
@@ -102,21 +102,21 @@ const shop_catlog = [
     name: "Guardian-class Corvette",
     price: 9500000,
     catagory: "Capital Ship",
-    image: "",
+    image: "images/idk126.jpg",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
     name: "Twin Ion Engine Sublight Propulsion System",
     price: 8500,
     catagory: "Component & Tech",
-    image: "",
+    image: "images/idk1.png",
   },
   {
     Manufacturer: "Sienar Fleet Systems",
     name: "XX-23 S-thread Tracker",
     price: 15000,
     catagory: "Component & Tech",
-    image: "",
+    image: "images/xx1.webp",
   },
 ];
 

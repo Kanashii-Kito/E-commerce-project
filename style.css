@@ -149,7 +149,7 @@ body {
 
 
 .container {
-  background-color: rgba(84, 80, 128, 0.933);
+  background-color: rgba(60, 60, 63, 0.933);
   color: #ffffff;
   margin: 2.5rem 3.5rem;
   padding: 1.475rem;
@@ -162,7 +162,7 @@ body {
 }
 
 .card {
-  background-color: rgba(78, 101, 122, 0.933);
+  background-color: rgba(82, 90, 99, 0.933);
   color: #fdfdfd;
   height:80vh;
   width: 55vh;
