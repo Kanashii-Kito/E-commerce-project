@@ -69,6 +69,8 @@ body,
 
 
 
+
+
 body {
   background-color: #1d232a;
   font-family: ui-sans-serif, system-ui, sans-serif;
@@ -164,23 +166,29 @@ body {
 .card {
   background-color: rgba(82, 90, 99, 0.933);
   color: #fdfdfd;
-  height:80vh;
+  height:84vh;
   width: 55vh;
   margin: 1.5rem 1.5rem;
   padding: 0.8795rem;
   border-radius: 0.5rem;
   gap: 1rem;
   text-align: center;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 .card-title {
-  font-weight: 400;
-  font-size: 2rem;
+  font-weight: 640;
+  font-size: 4.7rem;
   font-style: bold;
 }
+
+.fontsizetest {
+  font-size: 2.7rem;
+  font-weight: 620;
+}
+
 
 .card-img{
   display: flex;
@@ -201,21 +209,30 @@ body {
 }
 
 
+.blah {
+  font-size: 2.3457rem;
+  font-weight: 479;
+}
+
 
 .card-btn {
   grid-column: 1 / -1;
   grid-row: 2;
-  height: 4rem;
+  height: 5.7rem;
   background-color: #605dff;
   color: #edf0ff;
   border: 1px solid #5250e0;
   border-radius: 0.4rem;
-  font-size: 1.4rem;
+  font-size: 2.4rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s;
+  padding: 0.7795rem;
+  
 }
 
 .card-btn:hover {
   background-color: #7573ff;
 }
+
+/* add in the odin and RSI galaxy */

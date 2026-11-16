@@ -164,14 +164,14 @@ function inject(shop_catlog) {
     "beforeend",
     `<div class="card">
       <h2 class="card-title">${shop_catlog.name}</h2>
-        <h2 class="card-title2">${shop_catlog.catagory}</h2>
+        <h2 class="card-title2 fontsizetest">${shop_catlog.catagory}</h2>
       <img 
         class = "card-img centering"
         src=${shop_catlog.image}
         alt=""
       />
-      <p class="card-price frt3">Request a Quote (Upwards of ${shop_catlog.price} Credits)</p>
-      <button class="card-btn">View Variants</button>
+      <p class="card-price frt3 blah">Price : ${shop_catlog.price} Credits</p>
+      <button class="card-btn">Add to Cart</button>
     </div>`,
   );
 }
