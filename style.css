@@ -222,7 +222,7 @@ body {
   background-color: #605dff;
   color: #edf0ff;
   border: 1px solid #5250e0;
-  border-radius: 0.4rem;
+  border-radius: 0.7rem;
   font-size: 2.4rem;
   font-weight: 600;
   cursor: pointer;
@@ -235,4 +235,22 @@ body {
   background-color: #7573ff;
 }
 
-/* add in the odin and RSI galaxy */
+.cart-button-show {
+  position: fixed;
+  height: 10vh;
+  width: 10vh;
+  top: 20px;
+  left: 20px;
+  background: rgb(255, 255, 255);
+}
+
+
+.cart-btn {
+  display: inline-block;
+  padding: 1.4rem 3.2rem;
+  font-size: 2rem;
+  color: white;
+  background-color: #ff4f9a;
+  text-decoration: none;
+  border-radius: 5rem;
+}

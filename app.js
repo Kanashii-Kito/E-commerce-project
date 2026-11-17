@@ -118,6 +118,27 @@ const shop_catlog = [
     catagory: "Component & Tech",
     image: "images/xx1.webp",
   },
+  {
+    Manufacturer: "Roberts Space Industries",
+    name: "Galaxy",
+    price: 15000,
+    catagory: "Capital Ship",
+    image: "images/RSI_Galaxy.jpg",
+  },
+  {
+    Manufacturer: "Anvil Aerospace",
+    name: "Odin",
+    price: 52000000,
+    catagory: "Capital Ship",
+    image: "images/odin.jpg",
+  },
+  {
+    Manufacturer: "Roberts Space Industries",
+    name: "Polaris",
+    price: 52000000,
+    catagory: "Capital Ship",
+    image: "images/_reo_.webp",
+  },
 ];
 
 function filter_cat(category) {
