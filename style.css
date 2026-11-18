@@ -102,7 +102,7 @@ body {
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 .hero p {
-  font-size: 2.4rem;
+  font-size: 4.4rem;
   margin-bottom: 3rem;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
@@ -120,11 +120,22 @@ body {
 
 
 
+.ht1 {
+  height: 14.7vh;
+  background-color: red;
+  justify-content: center;
+}
 
+.ht2 {
+  font-size: 4.7rem;
+  color: #ffffff;
+  justify-content: center;
+}
 
-
-
-
+.fbf1 {
+  height: 6.7vh
+  
+}
 
 
 
@@ -232,16 +243,13 @@ body {
 }
 
 .card-btn:hover {
-  background-color: #7573ff;
+  background-color: #9a98ee;
 }
 
 .cart-button-show {
   position: fixed;
-  height: 10vh;
-  width: 10vh;
-  top: 20px;
-  left: 20px;
-  background: rgb(255, 255, 255);
+  bottom: 4vh;
+  right: 37px;
 }
 
 
@@ -249,8 +257,14 @@ body {
   display: inline-block;
   padding: 1.4rem 3.2rem;
   font-size: 2rem;
-  color: white;
-  background-color: #ff4f9a;
+  color: rgb(255, 255, 255);
+  background-color: #7573ff;
   text-decoration: none;
   border-radius: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+.cart-btn:hover {
+  background-color: #9a98ee;
 }
