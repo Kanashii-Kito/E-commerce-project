@@ -121,9 +121,12 @@ body {
 
 
 .ht1 {
+  display: flex;
+  align-items: center;
+  text-align: top;
   height: 14.7vh;
-  background-color: red;
-  justify-content: center;
+  background-color: rgba(60, 60, 63, 0.933);
+  justify-content: space-around;
 }
 
 .ht2 {
@@ -133,8 +136,29 @@ body {
 }
 
 .fbf1 {
-  height: 6.7vh
-  
+  height: 4.7vh;
+  font-size: 4.7rem;
+  display: inline-block;
+  padding: 1.4rem 3.2rem;
+  font-size: 2rem;
+  color: white;
+  background-color: #7c7aec;
+  text-decoration: none;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.fbf1:hover {
+  height: 4.7vh;
+  font-size: 4.7rem;
+  display: inline-block;
+  padding: 1.4rem 3.2rem;
+  font-size: 2rem;
+  color: white;
+  background-color: #9564d4;
+  text-decoration: none;
+  border-radius: 5rem;
+  cursor: pointer;
 }
 
 
@@ -268,3 +292,5 @@ body {
 .cart-btn:hover {
   background-color: #9a98ee;
 }
+
+

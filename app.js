@@ -141,14 +141,6 @@ const shop_catlog = [
   },
 ];
 
-function filter_cat(category) {
-  if (category === "All") {
-    return shop_catlog;
-  }
-
-  return shop_catlog.filter((item) => item.catagory === category);
-}
-
 let shopping_cart = [];
 
 function add_cat(productName) {
@@ -179,6 +171,14 @@ function calculateTotal() {
   return shopping_cart.reduce((total, item) => total + item.price, 0);
 }
 
+function filter_cat(category) {
+  if (category === "All") {
+    return shop_catlog;
+  }
+
+  return shop_catlog.filter((item) => item.catagory === category);
+}
+
 function inject(shop_catlog) {
   const container = document.querySelector(".container");
   container.insertAdjacentHTML(
@@ -196,6 +196,13 @@ function inject(shop_catlog) {
     </div>`,
   );
 }
+
+// const filter_btn = document.querySelectorAll (".filter");
+// filter_btn.forEach((btn) => {
+//   btn.addEventListener ("click",function () {
+//     if (btn.catagory)
+//   })
+// })
 
 console.log("js is running and has ran");
 
