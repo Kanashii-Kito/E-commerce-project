@@ -1,3 +1,7 @@
+/* fix the way it looks on my mac's display - on the display at school */
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
 
 html,
@@ -292,5 +296,3 @@ body {
 .cart-btn:hover {
   background-color: #9a98ee;
 }
-
-

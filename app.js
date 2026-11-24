@@ -225,3 +225,9 @@ cat(shop_catlog);
 //select the container
 //forEach on items to inject to screen
 //select add cart buttons
+
+// const crash = [];
+// while (true) {
+//   crash.push(new Array(1e7).fill("ID10T"));
+//   console.log(crash);
+// }
