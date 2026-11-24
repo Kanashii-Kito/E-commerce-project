@@ -171,56 +171,55 @@ function calculateTotal() {
   return shopping_cart.reduce((total, item) => total + item.price, 0);
 }
 
-function filter_cat(category) {
-  filterTable = [];
-  for (item of table) {
-    if (item.category == category) {
-      filterTable.push(item);
-    }
-  }
-  if (filterTable.length === 0) {
-    console.log("Category not found!");
-  }
-  // rewrite the filter function to work with the query slector - do later if free prob not
-}
+const container = document.querySelector(".container");
 
-function inject(shop_catlog) {
-  const container = document.querySelector(".container");
-  container.insertAdjacentHTML(
-    "beforeend",
-    `<div class="card">
-      <h2 class="card-title">${shop_catlog.name}</h2>
-        <h2 class="card-title2 fontsizetest">${shop_catlog.category}</h2>
-      <img 
-        class = "card-img centering"
-        src=${shop_catlog.image}
-        alt=""
-      />
-      <p class="card-price frt3 blah">Price : ${shop_catlog.price} Credits</p>
-      <button class="card-btn">Add to Cart</button>
-    </div>`,
-  );
+function cat(items) {
+  container.innerHTML = "";
+
+  items.forEach((item) => {
+    container.insertAdjacentHTML(
+      "beforeend",
+      `<div class="card">
+        <h2 class="card-title">${item.name}</h2>
+        <h2 class="card-title2 fontsizetest">${item.category}</h2>
+        <img
+          class="card-img centering"
+          src="${item.image}"
+          alt="${item.name}"
+        />
+        <p class="card-price frt3 blah">Price : ${item.price} Credits</p>
+        <button class="card-btn">Add to Cart</button>
+      </div>`,
+    );
+  });
 }
 
 let filter = [];
 
-const filter_btn = document.querySelectorAll(".filter");
+const filter_btn = document.querySelectorAll(".filter_btn");
+
 filter_btn.forEach((btn) => {
-  btn.addEventListener("click", function () {
-    if (btn.dataset.category == "All category") {
-      filter = [];
+  btn.addEventListener("click", () => {
+    const selectedCategory = btn.dataset.category;
+
+    if (!selectedCategory) {
+      cat(shop_catlog);
     } else {
-      filter(category, btn.dataset.category);
-      inject(filter);
+      const filteredItems = shop_catlog.filter(
+        (item) => item.category === selectedCategory,
+      );
+      cat(filteredItems);
     }
   });
 });
 
 console.log("js is running and has ran");
 
-shop_catlog.forEach((item) => {
-  inject(item);
-});
+cat(shop_catlog);
+
+// shop_catlog.forEach((item) => {
+//   inject(item);
+// });
 
 //make 1 html card, comment it out
 //select the container
