@@ -116,11 +116,14 @@ body {
   padding: 1.4rem 3.2rem;
   font-size: 2rem;
   color: white;
-  background-color: #ff4f9a;
+  background-color: #be98f0;
   text-decoration: none;
   border-radius: 5rem;
 }
 
+.stupidbutton:hover {
+  background-color: #677ee4;
+}
 
 
 
@@ -296,3 +299,18 @@ body {
 .cart-btn:hover {
   background-color: #9a98ee;
 }
+
+
+
+/* .style245 {
+  background-color: rgba(60, 60, 63, 0.933);
+  color: #ffffff;
+  margin: 2.5rem 3.5rem;
+  padding: 1.475rem;
+  border-radius: 0.8rem;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} */
